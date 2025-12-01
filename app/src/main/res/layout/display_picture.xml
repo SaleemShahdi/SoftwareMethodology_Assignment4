@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- photo_item_single.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Image View for Photo -->
+    <ImageView
+        android:id="@+id/photoImageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"/>
+
+    <!-- ListView for displaying tags -->
+    <ListView
+        android:id="@+id/tagsListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/slideshow"
+        android:background="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SlideShow"
+        android:textColor="@color/white"
+
+        android:layout_margin="12dp"/>
+
+    <Button
+        android:id="@+id/homePage"
+        android:background="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home Page"
+        android:textColor="@color/white"
+
+        android:layout_margin="12dp"/>
+
+    <Button
+        android:id="@+id/deletePhoto"
+        android:background="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Photo"
+        android:textColor="@color/white"
+
+        android:layout_margin="12dp"/>
+
+    <Button
+        android:id="@+id/addTag"
+        android:background="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Tag"
+        android:textColor="@color/white"
+        android:layout_margin="12dp"/>
+
+    <Button
+        android:id="@+id/movePicture"
+        android:background="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Move Picture"
+        android:textColor="@color/white"
+        android:layout_margin="12dp"/>
+
+    <Button
+        android:id="@+id/deleteTag"
+        android:background="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DeleteTag"
+        android:textColor="@color/white"
+        android:layout_margin="12dp"/>
+
+</LinearLayout>

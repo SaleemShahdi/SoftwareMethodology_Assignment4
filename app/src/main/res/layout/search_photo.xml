@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Tag 1 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/firstTag"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"/>
+
+        <Spinner
+            android:id="@+id/tag1_type_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:entries="@array/tag_types" />
+
+        <EditText
+            android:id="@+id/tag1_value_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tag_1_val"
+            android:inputType="text" />
+
+        <!-- Enable second tag -->
+        <CheckBox
+            android:id="@+id/enable_second_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search_two_tag"
+            android:layout_marginTop="16dp" />
+
+        <!-- Tag 2 -->
+        <LinearLayout
+            android:id="@+id/tag2_section"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/second_tag"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp" />
+
+            <Spinner
+                android:id="@+id/tag2_type_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:entries="@array/tag_types" />
+
+            <EditText
+                android:id="@+id/tag2_value_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/tag2Val"
+                android:inputType="text" />
+
+            <!-- AND/OR selection -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/and_or"
+                android:layout_marginTop="8dp" />
+
+            <Spinner
+                android:id="@+id/match_condition_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/match_conditions" />
+        </LinearLayout>
+
+        <!-- Search Button -->
+        <Button
+            android:id="@+id/search_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:textColor="@color/white"
+            android:layout_marginTop="24dp" />
+
+    </LinearLayout>
+</ScrollView>

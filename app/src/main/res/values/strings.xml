@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Android61</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="fab_add_description">Add photo or album</string>
+    <string name="recycler_view_description">List of albums and photos</string>
+    <string name ="recycler_view_description2">Grid of photos</string>
+    <string name = "fab_button_add_photo">Add photo to album</string>
+    <string name = "rename_button">Rename album</string>
+    <string name = "create_album">Enter album name</string>
+    <string name = "search_photo">Search for a photo by tag</string>
+    <string name = "search">Search</string>
+    <string name = "and_or">Match Condition (AND/OR)</string>
+    <string name = "tag2Val">Tag 2 Value</string>
+    <string name = "second_tag">Second Tag</string>
+    <string name = "search_two_tag">Search with second tag</string>
+    <string name = "tag_1_val">Tag 1 Value</string>
+    <string name = "firstTag">First Tag</string>
+    <string name = "renameAlbum">Rename Album</string>
+    <string name = "displayed_photo">Displayed Photo</string>
+    <string name = "back">Back</string>
+    <string name = "slideshow">Slideshow</string>
+    <string name = "exit_slideshow">Exit Slideshow</string>
+    <string name = "previous_photo">Previous</string>
+    <string name = "next_photo">Next</string>
+    <string-array name="tag_types">
+        <item>person</item>
+        <item>location</item>
+    </string-array>
+
+    <string-array name="match_conditions">
+        <item>AND</item>
+        <item>OR</item>
+    </string-array>
+    <string name = "lorem_ipsum">Hello</string>
+</resources>
