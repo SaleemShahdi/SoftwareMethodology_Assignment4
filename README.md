@@ -1,4 +1,4 @@
-All info and details are in the [project description](https://saleemshahdi.github.io/Portfolio/ProjectDescriptions/Android/Android.html).
+All info and details are in the [project description](https://saleemshahdi.github.io/Portfolio/ProjectDescriptions/Android/Android.html). Opening the link in another tab can be better for navigability.
 
 The paragraph below is what we submitted as the readme to the project as per the project instructions:
 
